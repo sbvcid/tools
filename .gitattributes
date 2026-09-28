@@ -1,0 +1,8 @@
+# Normalize text files to LF in the repository and working tree.
+# The original single-script repos had inconsistent committed line endings
+# (some CRLF, some LF). This makes it explicit going forward.
+* text=auto eol=lf
+
+# Compiled binaries
+*.exe binary
+*.pyc binary
